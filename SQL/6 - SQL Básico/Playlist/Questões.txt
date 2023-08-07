@@ -1,0 +1,21 @@
+INSTRUÇÕES: Crie um banco de dados chamada Playlist. Execute primeiro o arquivo
+criacao-tabelas-playlist.sql no modo script para criar o esquema. Depois execute o arquivo
+playlists-povoar.sql para inserir dados no banco de dados.
+As questões de 1 a 5 também devem ser escritas em álgebra relacional.
+
+1. Insira cinco novas músicas no banco de dados e seus respectivos artistas.
+2. Insira cada música da questão em uma das playlists já criadas.
+3. Obtenha o título da música cujo código é 10.
+4. Obtenha os dados da música cujo título é ‘Infinita Highway’.
+5. Obtenha os títulos de todas as músicas.
+6. Obtenha o título e nome da gravadora de todas as músicas.
+7. Obtenha os dados das playlists da Ana.
+8. Obtenha as músicas que começam com a letra A.
+9. Obtenha as músicas que terminam com a letra A e tem 5 letras no título.
+10. Obtenha os dados dos artistas com código entre 3 e 10. Use o operador Between.
+11. Obter, sem repetição, o título das músicas e a nome da gravadora das músicas que estão em
+alguma playlist de Bruno.
+12. Obter, sem repetição, os artistas das músicas que estão em alguma playlist da Ana.
+13. Obter o título das músicas que estão em alguma playlist da Ana e também do Bruno.
+14. Obter todas as músicas que não estão em nenhuma playlist.
+15. Obter o nome dos artistas que estão na playlist 1 ou 2, mas não em ambas.
