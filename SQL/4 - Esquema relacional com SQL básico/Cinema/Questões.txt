@@ -1,0 +1,35 @@
+1 - Execute o comando para alterar a tabela Poltrona inserindo uma coluna extra e uma chave única.
+
+alter table poltrona
+add column idp integer;
+
+alter table poltrona
+add constraint unk_idp unique(idp);
+
+2 - Insira 5 tuplas válidas em cada tabela, respeitando as restrições de nulidade, chave primária e chave estrangeira.
+
+3 – Use o comando SELECT * FROM NOME_TABELA para visualizar os dados inseridos em cada tabela.
+
+4 – Considere a tabela Bilhete(cod_sessao, id_poltrona, cod_bilhete)
+
+a) Quem são as chaves estrangeiras dessa tabela? Quais tabelas e atributos referenciam?
+
+b) Quem são as chaves candidatas? Defina uma delas como chave primária.
+
+c) Crie a tabela Bilhete especificando as chaves primárias, estrangeiras e únicas.
+
+d) Insira 5 tuplas na tabela criada.
+
+5 – Modifique o banco de dados para incluir o atributo gênero_filme que é multivalorado (no caso, um filme pode ter vários gêneros).
+
+a) Crie uma tabela para permitir que o filme tenha inúmeros gêneros.
+
+b) Como é o esquema dessa tabela? Inclua o comando SQL especificando chaves primárias e estrangeiras.
+
+c) Insira 5 tuplas nessa tabela.
+
+6 – O comando DELETE FROM FILME WHERE codigo=X apaga do banco de dados o filme cujo valor do código é X. Substitua X por um valor de código
+existente no seu banco de dados para o qual existe uma sessão alocada. O que acontece ao tentar executar esse comando? Por quê?
+
+7 - O comando UPDATE POLTRONA SET id_poltrona=Y WHERE id_poltrona=X altera o id da poltrona do banco de dados cujo valor do código é ‘X’ para o valor ‘Y’.
+Substitua X por um valor de código existente no seu banco de dados para o qual existe umbilhete vendido. O que acontece ao tentar executar esse comando? Por quê?
