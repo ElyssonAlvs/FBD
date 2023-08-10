@@ -1,0 +1,14 @@
+Questão 01
+
+Comentário:
+Você precisa usar >all por isso o pgadmin acusou o erro.
+
+Usar >=all pois a quantidade é igual a da pessoa na consulta interna.
+
+Questão 02 
+
+A tabela pessoa nas consultas internas precisam ser renomeadas.
+
+Questão 05
+
+qtd_seguindo e qtd_seguidores está invertida.
